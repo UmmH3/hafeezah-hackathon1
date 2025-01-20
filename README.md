@@ -57,7 +57,18 @@ They represent the most valuable customers and should be prioritized for retenti
 While at-risk customers **(Low R, Low F, High M**);are customers who used to spend a lot but haven't purchased recently. They are to be
 considered for re-engagement campaigns like discounts or personalized offers to win them back.
 
-2,
+2. Analysis showed which segments contribute the most to overall revenue:
+Typically, Best Customers and Loyal Customers account for the majority of revenue.
+This can help allocate resources effectively.
+
+3.The boxplot helped to show the recency distribution. It shows which segments tend to have customers who shop more recently.
+If there are high-recency segments,the focus will be on maintaining engagement with them.
+
+4. The countries which have higher concentrations of valuable customers (e.g., customers with high Frequency or Monetary scores) was highlighted.This will help in targeting country-specific marketing campaigns.
+
+By tailoring strategies to each segment, you can optimize revenue and improve customer satisfaction.
+
+
 
 ## Ethical considerations
 The dataset used in this analysis was a public sourced dataset.
