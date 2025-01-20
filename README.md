@@ -20,7 +20,9 @@ To provide insights into customer behaviour, popular products, and pricing strat
 To achieve this by analysing online retail transaction data from the dataset sourced.
 
 ## Hypothesis and how to validate?
-
+To identify the frequently bought products by creating a new column for the Revenue. The use to plot a barchart.
+To identify high spenders and frequent buyers using the customer segmentation created with the bar plot and pie chart.
+To identify spending habit by country using bthe merged dataframe.
 
 ## Project Plan
 
@@ -37,7 +39,7 @@ To achieve this by analysing online retail transaction data from the dataset sou
 ## Analysis techniques used
 . Initial **RFM analysis** to give correlation.
 . ****Descriptive statistics** **in form of a bar chart showing the top 10 products purchased according to revenue.
-. Used a **Bar plot** to show the Customer Segmentation,;highlighting Best Customer vs Low Value Customer. 
+. Used a **Bar plot** to show the Customer Segmentation,;highlighting Best Customer vs Low Value Customer. A **pie chart** was also used for this giving ban easier understanding to nthe customer distribution.
 . A ** **Heatmap** was used to further give insight into the frequency and recency relative to revenue.
 . A **Boxplot** time series was also used for further insight.
 . A** 3D Scatterplot** was used to show the country of purchase relation to customer behaviour. 
