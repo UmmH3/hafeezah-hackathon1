@@ -16,16 +16,21 @@
 This dataset was used to analyze customer behavior and preferences, identify popular products, and optimize pricing and marketing strategies.
 
 ## Business Requirements
-
-
+To provide insights into customer behaviour, popular products, and pricing strategies to improve sales and marketing efforts. 
+To achieve this by analysing online retail transaction data from the dataset sourced.
 
 ## Hypothesis and how to validate?
 * List here your project hypothesis(es) and how you envision validating it (them) 
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+
+1. Choosing the appropriate method to carry out the analysis from the start wwas important. I chose a method easy for me to understand and aslo to relay outcomes to the end user.
+2. Loading data from the csv file downloaded from Kaggle onto a dataframe
+3. Extracting and cleaning of the data by handling missing values,removing negative values from the quantity and price columns and also removing duplicates.
+4. Tranforamation process involved creating a new column and adding it onto the dataframe .
+5. Descriptive Analysis of the cleaned data to give us some correlations between the data cleaned. for example the RFM score.
+6. The creation of visuals to further give insights into the exploratory analysis carried out.
+7. Give a conclusion on what was derived from the analysis.
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
