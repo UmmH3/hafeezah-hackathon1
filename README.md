@@ -1,16 +1,22 @@
-# Project XYZ
+#  Customer Behaviour in Online Retail Transactions
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
 
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+**This comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
-
+* The dataset used for this analysis contains information on transactions made by customers through an online retail platform. The dataset includes data:
+# Products purchased, 
+# Quantity of each product,
+# date and time of each transaction, 
+# price of each product, 
+# unique identifier for each customer who made a purchase, 
+# country of purchase. 
+This dataset was used to analyze customer behavior and preferences, identify popular products, and optimize pricing and marketing strategies.
 
 ## Business Requirements
-* Describe your business requirements
+
 
 
 ## Hypothesis and how to validate?
