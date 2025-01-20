@@ -5,14 +5,14 @@
 
 
 
-## Dataset Content
+# Dataset Content
 * The dataset used for this analysis contains information on transactions made by customers through an online retail platform. The dataset includes data:
-# Products purchased, 
-# Quantity of each product,
-# date and time of each transaction, 
-# price of each product, 
-# unique identifier for each customer who made a purchase, 
-# country of purchase. 
+## Products purchased, 
+## Quantity of each product,
+## date and time of each transaction, 
+## price of each product, 
+## unique identifier for each customer who made a purchase, 
+## country of purchase. 
 This dataset was used to analyze customer behavior and preferences, identify popular products, and optimize pricing and marketing strategies.
 
 ## Business Requirements
@@ -35,6 +35,9 @@ To identify spending habit by country using bthe merged dataframe.
 7. Give a conclusion on what was derived from the analysis.
 
 ## The rationale to map the business requirements to the Data Visualisations
+ A barchart to show the Top products sold. This gives a straight forward insight into the most purchased products.
+ A barplot or pie chart show the customer distribution, very simple insight into who the loyal buyers are.
+ A heatmap is important in showingn the RFM analysis carried out
 
 ## Analysis techniques used
 . Initial **RFM analysis** to give correlation.
@@ -44,6 +47,17 @@ To identify spending habit by country using bthe merged dataframe.
 . A **Boxplot** time series was also used for further insight.
 . A** 3D Scatterplot** was used to show the country of purchase relation to customer behaviour. 
 
+## Conclusion
+
+From the analysis carried out on the above dataset the following was derived:
+
+1.*The Customer Segmentation* gave insight to the best customers (**High R, High F, High M)**.
+These are customers who purchase frequently, spend the most, and have purchased recently.
+They represent the most valuable customers and should be prioritized for retention and loyalty programs.
+While at-risk customers **(Low R, Low F, High M**);are customers who used to spend a lot but haven't purchased recently. They are to be
+considered for re-engagement campaigns like discounts or personalized offers to win them back.
+
+2,
 
 ## Ethical considerations
 The dataset used in this analysis was a public sourced dataset.
@@ -56,7 +70,6 @@ The main challenge in had was creatingbthe 3d Scatter plot and trying to hover o
 
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
 pandas: For data manipulation and analysis
 numpy: For numerical computing
 matplotlib: For creating static visualisations
